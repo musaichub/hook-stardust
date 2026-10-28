@@ -1,0 +1,11 @@
+.env.local
+.runtime/
+.venv/
+__pycache__/
+tests/__pycache__/
+qa/
+
+# never publish the supplied mixes or the pre-public-domain archive
+hook_top5_prod 2/
+archive/
+.DS_Store

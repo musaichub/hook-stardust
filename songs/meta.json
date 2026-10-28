@@ -1,0 +1,47 @@
+{
+ "1_nicole_kidman": {
+  "isrc": "USUM72606032",
+  "title": "Nicole Kidman",
+  "artist": "ADÉLA",
+  "album": "PRIMA",
+  "year": "2026",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/600x600bb.jpg",
+  "genre": "Pop"
+ },
+ "2_aint_in_la": {
+  "isrc": "USUM72605978",
+  "title": "Ain't In LA",
+  "artist": "ADÉLA",
+  "album": "Ain't In LA - Single",
+  "year": "2026",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/19/e8/5419e883-3cc4-5d8b-a10d-c1fee1f5c969/26UMGIM82372.rgb.jpg/600x600bb.jpg",
+  "genre": "Pop"
+ },
+ "3_the_hills": {
+  "isrc": "USUG11500737",
+  "title": "The Hills",
+  "artist": "The Weeknd",
+  "album": "Beauty Behind the Madness",
+  "year": "2015",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/600x600bb.jpg",
+  "genre": "R&B/Soul"
+ },
+ "4_cant_feel_my_face": {
+  "isrc": "USUG11500741",
+  "title": "Can't Feel My Face",
+  "artist": "The Weeknd",
+  "album": "Beauty Behind the Madness",
+  "year": "2015",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/600x600bb.jpg",
+  "genre": "R&B/Soul"
+ },
+ "5_sao_paulo": {
+  "isrc": "USUG12405846",
+  "title": "São Paulo",
+  "artist": "The Weeknd & Anitta",
+  "album": "Hurry Up Tomorrow",
+  "year": "2024",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/fd/a3/13fda38d-fc63-ddc3-1cf2-c09251adc532/25UMGIM09489.rgb.jpg/600x600bb.jpg",
+  "genre": "R&B/Soul"
+ }
+}

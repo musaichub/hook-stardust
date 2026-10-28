@@ -1,0 +1,34 @@
+# Publishes the built game (index.html plus the songs and brand folders) to GitHub Pages on every push to main.
+name: Deploy Stardust to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble the static site
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp HOOK-Stardust.html _site/HOOK-Stardust.html
+          cp -r songs brand _site/
+          cp voiceswap-black.png voiceswap-white.png _site/ 2>/dev/null || true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
